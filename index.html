@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUPS Evaluasi Kerjasama Merempah - PT Seduhlur Indo Group</title>
+    <style>
+        :root {
+            --dark-green: #166534;
+            --light-bg: #F9FAFB;
+            --text-dark: #1F2937;
+            --text-gray: #4B5563;
+            --brown-accent: #92400E;
+            --border-color: #E5E7EB;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--light-bg);
+            padding: 2rem;
+        }
+
+        .sheet {
+            background-color: #FFFFFF;
+            max-width: 210mm; /* A4 width */
+            margin: 0 auto;
+            padding: 40px 50px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border-top: 8px solid var(--dark-green);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--brown-accent);
+        }
+
+        .header h1 {
+            color: var(--dark-green);
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+        }
+
+        .section-title {
+            color: var(--brown-accent);
+            font-size: 1.2rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-left: 10px;
+            border-left: 4px solid var(--dark-green);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        p, li {
+            font-size: 10pt;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            text-align: justify;
+        }
+
+        ul, ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* TIMELINE STYLES */
+        .timeline {
+            position: relative;
+            margin: 2rem 0;
+            padding-left: 30px;
+            border-left: 3px solid var(--dark-green);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -37.5px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--brown-accent);
+            border: 3px solid #FFF;
+            box-shadow: 0 0 0 1px var(--dark-green);
+        }
+
+        .timeline-title {
+            font-weight: bold;
+            color: var(--dark-green);
+            font-size: 11pt;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        .timeline-desc {
+            font-size: 9.5pt;
+            color: var(--text-gray);
+        }
+
+        /* PERNYATAAN KELUAR & IDENTITAS STYLES */
+        .identitas {
+            width: 100%;
+            margin-bottom: 1rem;
+            font-size: 10pt;
+        }
+
+        .identitas td {
+            padding: 4px 0;
+            vertical-align: top;
+        }
+
+        .identitas td:first-child {
+            width: 30%;
+            font-weight: bold;
+        }
+
+        .legal-ref {
+            background-color: var(--light-bg);
+            border-left: 4px solid var(--brown-accent);
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-size: 9.5pt;
+            font-style: italic;
+            color: var(--text-gray);
+        }
+
+        .highlight {
+            color: var(--brown-accent);
+            font-weight: 600;
+        }
+
+        .signature-section {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .signature-box {
+            width: 45%;
+        }
+
+        .signature-box .name {
+            margin-top: 80px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .divider {
+            margin: 3rem 0;
+            border: 0;
+            border-top: 2px dashed var(--border-color);
+        }
+
+        .page-break {
+            page-break-before: always;
+            margin-top: 4rem;
+        }
+
+        /* Print formatting */
+        @media print {
+            body { background-color: #FFF; padding: 0; }
+            .sheet { box-shadow: none; border-top: none; padding: 20px 0; }
+            .divider { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sheet">
+        
+        <!-- BAGIAN 1: PEMBUKAAN RUPS & KRONOLOGI VERTIKAL -->
+        <div class="header">
+            <h1>RAPAT UMUM PEMEGANG SAHAM (RUPS)</h1>
+            <p><strong>Evaluasi Kerjasama Brand "Merempah" - PT Seduhlur Indo Group</strong></p>
+        </div>
+
+        <p>Rapat Umum Pemegang Saham (RUPS) ini diselenggarakan untuk mengevaluasi secara komprehensif perjalanan kemitraan operasional dan finansial. Berikut adalah ringkasan kronologi yang mendasari pengambilan keputusan dalam RUPS ini:</p>
+
+        <!-- KRONOLOGI VERTIKAL -->
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-title">1. Fase Pendanaan & Kendala Pembangunan</span>
+                <p class="timeline-desc">Pelaksanaan proyek <em>out of plan</em> (non-MVP) memicu pembengkakan biaya. Hal ini menyebabkan efek domino pada tertundanya operasional dan ditariknya biaya marketing untuk Opex.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-title">2. Kegagalan Eksekusi & Transformasi Produk</span>
+                <p class="timeline-desc">Keterlambatan upgrade SOP dan eksekusi pelatihan menyebabkan transformasi menu terhambat. Dipicu oleh lemahnya koordinasi operasional C-Level.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-title">3. Kebocoran Finansial & Hutang</span>
+                <p class="timeline-desc">Omset mengalami kenaikan signifikan, namun terjadi kebocoran dana (<em>financial leakages</em>) yang berisiko tinggi serta timbulnya hutang investasi akibat tata kelola operasional yang buruk.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-title">4. Disrupsi Komunikasi & Pergeseran Visi</span>
+                <p class="timeline-desc">Koordinasi strategis dan taktis menjadi sulit terjalin efektif akibat kerenggangan komunikasi dan adanya indikasi ketidakselarasan visi antar pendiri.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-title">5. Pelanggaran Milestone Strategis</span>
+                <p class="timeline-desc">Key Performance Indicators (KPI) untuk arus kas operasional dan milestone pertumbuhan gagal tercapai, memicu klausul mitigasi risiko evaluasi 3 bulan.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-title">6. Kegagalan Mempertahankan Sistem (Relapse)</span>
+                <p class="timeline-desc">Intervensi awal sempat berhasil menaikkan omset dan merapikan sistem. Namun, setelah dikembalikan kepada pengelola semula, standar kembali merosot dan kebocoran dana berulang.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-title">7. Kesimpulan RUPS (Deadlock)</span>
+                <p class="timeline-desc">Sistem manajerial dinilai tidak dapat dipertahankan. RUPS memutuskan pengembalian 100% porsi saham kepada Abdul Aziz Albar dan pengembalian HKI Merempah kepada Danu Ferdianto.</p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- BAGIAN 2: SURAT PERNYATAAN (DIPINDAH KE BAWAH KRONOLOGI) -->
+        <h2 class="section-title">Surat Pernyataan Pengakhiran Kerjasama & Pelepasan Saham</h2>
+        <p>Berdasarkan hasil RUPS dan kronologi di atas, yang bertanda tangan di bawah ini:</p>
+        
+        <table class="identitas">
+            <tr>
+                <td>Nama</td>
+                <td>: <strong>Danu Ferdianto</strong></td>
+            </tr>
+            <tr>
+                <td>Jabatan Terakhir</td>
+                <td>: Direktur / Pemegang Saham (28%)</td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>: <strong>Prima Yoga Lan</strong></td>
+            </tr>
+            <tr>
+                <td>Jabatan Terakhir</td>
+                <td>: Direktur / Pemegang Saham (28%)</td>
+            </tr>
+        </table>
+        <p>Selanjutnya disebut sebagai <strong>PIHAK PERTAMA</strong>.</p>
+        <br>
+        <table class="identitas">
+            <tr>
+                <td>Nama</td>
+                <td>: <strong>Abdul Aziz Albar</strong></td>
+            </tr>
+            <tr>
+                <td>Jabatan Terakhir</td>
+                <td>: Direktur Utama / Pemegang Saham (44%)</td>
+            </tr>
+        </table>
+        <p>Selanjutnya disebut sebagai <strong>PIHAK KEDUA</strong>.</p>
+
+        <p style="margin-top: 1rem;">Dengan sadar dan tanpa paksaan, kedua belah pihak menyatakan kesepakatan sebagai berikut:</p>
+        <ol>
+            <li><strong>Pengembalian Saham (Takeover All-in):</strong> PIHAK PERTAMA sepakat untuk mundur dari kemitraan operasional dan mengembalikan seluruh porsi kepemilikan sahamnya (total 56%) kepada PIHAK KEDUA.</li>
+            <li><strong>Pengembalian Hak Merek:</strong> Seluruh Hak Kekayaan Intelektual (HKI) atas merek/brand <span class="highlight">"Merempah"</span> dikembalikan sepenuhnya kepada Bapak Danu Ferdianto, sebagaimana kesepakatan awal yang tertuang dalam Dokumen Dasar Pendirian Perusahaan dan Latar Belakang Perjanjian (Recital Document).</li>
+            <li><strong>Pembebasan Tanggung Jawab:</strong> Sejak surat ini ditandatangani, PIHAK PERTAMA dibebaskan dari segala tuntutan hukum, hutang piutang perusahaan, maupun kewajiban operasional PT Seduhlur Indo Group.</li>
+        </ol>
+
+        <div class="signature-section">
+            <div class="signature-box">
+                <p><strong>PIHAK PERTAMA</strong></p>
+                <div class="name">Danu Ferdianto</div>
+                <br>
+                <div class="name" style="margin-top: 40px;">Prima Yoga Lan</div>
+            </div>
+            <div class="signature-box">
+                <p><strong>PIHAK KEDUA</strong></p>
+                <div class="name">Abdul Aziz Albar</div>
+            </div>
+        </div>
+
+        <!-- BAGIAN 3: LAMPIRAN RINCIAN (Paling Bawah) -->
+        <div class="page-break"></div>
+        <hr class="divider">
+        <div class="header" style="margin-top: 2rem;">
+            <h1 style="font-size: 1.3rem;">LAMPIRAN: RINCIAN KRONOLOGI EVALUASI</h1>
+            <p><strong>Dokumen Pendukung Keputusan RUPS</strong></p>
+        </div>
+
+        <h2 class="section-title">1. Fase Pendanaan Tahap 1 & Kendala Awal</h2>
+        <ul>
+            <li><strong>Ketidaksesuaian Pembangunan:</strong> Pelaksanaan pembangunan tidak sesuai dengan perencanaan awal (<em>out of plan</em>), yang memaksa terjadinya pengeluaran <em>overbudget</em> (non-MVP) di luar rancangan dasar. Hal ini secara langsung menyebabkan pembengkakan pada waktu serta biaya.</li>
+            <li><strong>Efek Domino pada Operasional:</strong> Tertundanya mekanisme rancangan produk, SOP operasional, serta inisiatif pelatihan yang intensif menimbulkan efek domino. Terhambatnya <em>milestone</em> operasional tersebut menyebabkan keterlambatan proses bisnis secara keseluruhan dalam waktu yang cukup lama, sehingga tim pemasaran tidak dapat bergerak cepat untuk penetrasi pasar.</li>
+            <li><strong>Realokasi Anggaran:</strong> Pembengkakan di luar rencana berdampak pada penarikan secara paksa biaya pemasaran (Marketing) untuk menutupi kebutuhan operasional (Opex). Selain itu, terjadi penyimpangan pada perencanaan bahan baku yang tidak sesuai dengan standar tata kelola yang <em>clear & clean</em>.</li>
+        </ul>
+
+        <h2 class="section-title">2. Kegagalan Eksekusi Operasional & Transformasi Produk</h2>
+        <ul>
+            <li>Terjadi keterlambatan dan ketidakprofesionalan dalam pengembangan sisi operasional. Eksekusi <em>upgrade</em> SOP dan inisiatif pelatihan tidak berjalan dengan baik.</li>
+            <li>Proses pembuatan produk tidak tercatat dengan rapi dan tidak tereksekusi secara disiplin. Hal ini menyebabkan transformasi dari menu lama ke menu baru menjadi terhambat.</li>
+            <li>Akar permasalahan dari kegagalan operasional ini sebagian besar disebabkan oleh menurunnya tingkat koordinasi teknis di antara para eksekutif (<em>C-Level</em>).</li>
+        </ul>
+
+        <h2 class="section-title">3. Kebocoran Finansial & Timbulnya Hutang</h2>
+        <ul>
+            <li>Meskipun dalam perjalanannya bisnis berhasil mencetak <strong>kenaikan omset yang signifikan</strong>, ditemukan celah serius pada tata kelola keuangan berupa kebocoran dana (<em>financial leakages</em>) yang dikategorikan berisiko tinggi terhadap kelangsungan usaha.</li>
+            <li>Akibat buruknya tata kelola operasional, perusahaan terbebani oleh <strong>hutang investasi</strong>, yang seharusnya dapat dihindari sepenuhnya apabila eksekusi dan pengelolaan kas dilakukan secara profesional.</li>
+        </ul>
+
+        <h2 class="section-title">4. Disrupsi Komunikasi & Pergeseran Visi</h2>
+        <ul>
+            <li>Terjadi isu kerenggangan komunikasi antar seluruh pihak yang mengakibatkan koordinasi strategis maupun taktis di lapangan menjadi sangat sulit terjalin secara efektif.</li>
+            <li>Terdapat indikasi kuat adanya pergeseran atau ketidakselarasan visi dan misi dari masing-masing pendiri, yang semakin menyimpang dari cetak biru (<em>blueprint</em>) dan komitmen awal berdirinya perusahaan.</li>
+        </ul>
+
+        <h2 class="section-title">5. Pelanggaran Milestone & Rujukan Legal</h2>
+        <p>Kegagalan-kegagalan di atas mengakibatkan tidak tercapainya Key Performance Indicators (KPI) dan rencana strategis yang tertuang dalam dokumen legal perusahaan:</p>
+        
+        <div class="legal-ref">
+            <strong>Rujukan: Dokumen Dasar Pendirian Perusahaan (Tugas & Kewajiban)</strong><br>
+            Terdapat kegagalan dalam mencapai KPI <strong>"Arus Kas Operasional"</strong> yang sehat dan <strong>"Milestone Pertumbuhan"</strong> (Kewajiban Pihak Pertama), yang secara langsung disebabkan oleh inefisiensi eksekusi operasional harian dan manajemen rantai pasok (Kewajiban Pihak Kedua).
+        </div>
+
+        <div class="legal-ref">
+            <strong>Rujukan: Latar Belakang Perjanjian / Recital Document (Klausul 12. Mitigasi Risiko)</strong><br>
+            Poin 12 mengatur: <em>"Evaluasi operasional dan strategi dalam 3 bulan jika target tidak tercapai."</em> Proses intervensi yang berujung pada RUPS Luar Biasa ini merupakan bentuk eksekusi dari klausul mitigasi risiko tersebut.
+        </div>
+
+        <h2 class="section-title">6. Kegagalan Mempertahankan Sistem (Relapse)</h2>
+        <ul>
+            <li><strong>Intervensi Berhasil:</strong> Sempat dilakukan perbaikan manajemen menyeluruh (sapu bersih). Sistem ketat ini <em>proven</em> berhasil menaikkan omset dan memperbaiki operasional.</li>
+            <li><strong>Overlapping & Relapse:</strong> Namun, terjadi tumpang tindih peran di mana satu pihak harus "membersihkan kekacauan" pihak lain. Setelah operasional dikembalikan kepada pengelola semula, standar kembali menurun, pekerjaan tertunda, dan kebocoran dana terjadi lagi.</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
