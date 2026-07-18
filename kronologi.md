@@ -11,10 +11,10 @@ Dokumen ini disusun sebagai landasan evaluasi kemitraan pada PT Seduhlur Indo Gr
 ---
 
 ## 1. Fase Pendanaan Tahap 1 & Kendala Awal
-Pada tahap awal pendanaan dan eksekusi bisnis, terkumpul nilai investasi yang diturunkan dari Bapak Prima Yoga Lan sebesar Rp 100.000.000 (Seratus Juta Rupiah) serta dari Investor Eksternal sebesar Rp 52.000.000 (Lima Puluh Dua Juta Rupiah). Namun, dalam perjalanannya terjadi sejumlah permasalahan struktural dan operasional:
-- **Ketidaksesuaian Pembangunan:** Pelaksanaan pembangunan tidak sesuai dengan perencanaan awal (*out of plan*), yang memaksa terjadinya pengeluaran *overbudget* (non-MVP) di luar rancangan dasar. Hal ini secara langsung menyebabkan pembengkakan pada waktu serta biaya.
-- **Efek Domino pada Operasional:** Tertundanya mekanisme rancangan produk, SOP operasional, serta inisiatif pelatihan yang intensif menimbulkan efek domino. Terhambatnya *milestone* operasional tersebut menyebabkan keterlambatan proses bisnis secara keseluruhan dalam waktu yang cukup lama, sehingga tim pemasaran tidak dapat bergerak cepat untuk penetrasi pasar.
-- **Realokasi Anggaran:** Pembengkakan di luar rencana berdampak pada penarikan secara paksa biaya pemasaran (Marketing) untuk menutupi kebutuhan operasional (Opex). Selain itu, terjadi penyimpangan pada perencanaan bahan baku yang tidak sesuai dengan standar tata kelola yang *clear & clean*.
+Investasi dari Bapak Prima Yoga Lan (Rp 100 Juta) dan Investor Eksternal (Rp 52 Juta) diturunkan. Namun pelaksanaan proyek *out of plan* memicu pembengkakan biaya, menunda operasional, relokasi budget antar posisi, yang pada akhirnya tidak berdampak pada eksekusi sistematis untuk meningkatkan *launching* optimal dan belum mencapai omset sesuai dengan waktu yang dijadwalkan:
+- **Pembengkakan & Relokasi Budget:** Pembangunan *out of plan* memicu pembengkakan biaya (non-MVP). Hal ini berujung pada keharusan melakukan relokasi budget antar posisi yang merusak tata kelola *clear & clean*.
+- **Penundaan Operasional:** Tertundanya mekanisme eksekusi sistematis, termasuk *upgrade* SOP dan rancangan produk.
+- **Kegagalan Target Waktu:** Bisnis belum mencapai omset sesuai dengan waktu yang dijadwalkan sehingga menghambat momentum *launching* yang optimal.
 
 ## 2. Kegagalan Eksekusi Operasional & Transformasi Produk
 - Terjadi keterlambatan dan ketidakprofesionalan dalam pengembangan sisi operasional. Eksekusi *upgrade* SOP dan inisiatif pelatihan tidak berjalan dengan baik.
